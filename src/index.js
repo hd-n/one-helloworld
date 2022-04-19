@@ -1,8 +1,5 @@
-import react from 'react';
 import ReactDOM from 'react-dom';
+import './style.css';
+import AppHD from './app';
 
-function App() {
-    return <h1 style={{ textAlign: "center" }}>Hello World</h1>
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<AppHD />, document.getElementById('root'));
