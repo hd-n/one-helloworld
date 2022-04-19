@@ -1,5 +1,3 @@
-import ReactDOM from 'react-dom';
-import './style.css';
-import AppHD from './app';
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<AppHD />, document.getElementById('root'));
+ReactDOM.render(<app></app>, document.getElementById("root"));
